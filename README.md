@@ -5,9 +5,3 @@
 WebDriver下载链接（Chrome）：https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 把wifi_login_activator.vbs修改之后放到启动文件夹里可以达到开机自动登录校园网的功能。对于Windows上单个用户来说，启动文件夹路径为AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup。
-
-todos
-
-1. 增加修改账密以及选择服务的功能，并增加对应的GUI。
-2. 增加多身份支持，包括新增、修改和删除账户。（还在考虑，因为用处不大）
-3. 定义配置文件，并支持导出和导入功能。
