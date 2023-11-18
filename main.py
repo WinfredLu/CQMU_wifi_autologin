@@ -17,7 +17,6 @@ wait = WebDriverWait(driver, 10)
 
 def find_and_clear_input(selector, text):
     try:
-        # 等待元素可见并清空输入框
         element = wait.until(EC.visibility_of_element_located(selector))
         element.clear()
         element.send_keys(text)
@@ -27,7 +26,6 @@ def find_and_clear_input(selector, text):
 
 def click_element(selector):
     try:
-        # 等待元素可点击并点击
         element = wait.until(EC.element_to_be_clickable(selector))
         element.click()
     except TimeoutException:
